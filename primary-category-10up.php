@@ -6,7 +6,7 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 /*
   Plugin Name: Post Primary Category (10up)
   Plugin URI: https://github.com/magas0/primary-category-10up
-  Description: a plugin to allow publishers designate a primary category for posts.
+  Description: A plugin to allow publishers to designate a primary category for posts.
   Version: 0.1
   Author: SM
   Author URI: https://github.com/magas0/
