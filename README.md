@@ -11,5 +11,7 @@ https://en-ca.wordpress.org/plugins/relevanssi/
 
 Installation Instructions:
 
-1. Unzip your plugin zip file, make sure the folder is called "primary-category-10up" (remove '-master')
-2. Copy or move the folder to your plugin directory (/wp-content/plugins/).
+1. In the terminal, go to your Wordpress plugin folder (/wp-content/plugins).
+2. Use git to clone the project: git clone https://github.com/magas0/primary-category-10up.git
+3. This will place the plugin directly into your plugins directory. 
+4. Activate the plugin from your Wordpress admin panel. 
