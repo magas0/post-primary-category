@@ -12,16 +12,16 @@ class Tenup_Post_Primary_Category {
   }
 
   /**
-	 * Load our action hooks to add a meta box and when saving a post
-	 */
+  * Load our action hooks to add a meta box and when saving a post
+  */
   public function tenup_create_hooks() {
     add_action( 'add_meta_boxes', array( $this, 'tenup_post_add_meta_box' ) );
     add_action( 'save_post', array( $this, 'tenup_post_save_meta_box' ), 10, 2 );
   }
 
   /**
-	 * Add the meta box to the top right side of the post admin page
-	 */
+  * Add the meta box to the top right side of the post admin page
+  */
   public function tenup_post_add_meta_box() {
     add_meta_box(
       'tenup-primary-category',
@@ -34,10 +34,10 @@ class Tenup_Post_Primary_Category {
   }
 
   /**
-	 * Create the HTML for the meta box
+   * Create the HTML for the meta box
    * @param object $post passing in post object
    * @return string $html string containing the html for the metabox
-	 */
+   */
   public function tenup_primary_category_meta_box_content( $post ) {
 
     $primary_category = '';
@@ -75,10 +75,10 @@ class Tenup_Post_Primary_Category {
   }
 
   /**
-	 * Save the primary category choosen in the metabox into the post meta table
+   * Save the primary category choosen in the metabox into the post meta table
    * @param object $post passing in post object
    * @param integer $post_id
-	 */
+   */
   public function tenup_post_save_meta_box( $post_id, $post ) {
 
     // Verify the nonce
