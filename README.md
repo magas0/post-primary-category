@@ -11,5 +11,5 @@ https://en-ca.wordpress.org/plugins/relevanssi/
 
 Installation Instructions:
 
-1. Unzip your plugin zip file, make sure the folder is called "post-primary-category" (remove '-master')
+1. Unzip your plugin zip file, make sure the folder is called "primary-category-10up" (remove '-master')
 2. Copy or move the folder to your plugin directory (/wp-content/plugins/).
